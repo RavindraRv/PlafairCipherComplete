@@ -1,0 +1,18 @@
+Implement the encryption as well as the decryption of the following cipher. The encryption works as
+follows:
+1. Consider a word (without any space) as a plaintext. (Input)
+2. Adjust the length of the plaintext and handle the repetition of letter (if present) according to the
+rule of the Playfair cipher. If there is any J in the word convert it to I. Let the final word be ∆.
+3. Print the word ∆. (Output)
+4. Consider a word as input and convert J (if any) to I and consider that converted word as the key
+K1. (Input)
+5. Generate the 5 × 5 key matrix of the Playfair cipher from K1 and print it. (Output)
+6. Encrypt ∆ using the Playfair cipher where the key is K1. Let the ciphertext be C1. Print the
+ciphertext C1. (Output)
+7. Encrypt C1 using the Affine cipher where the key is K2 = (11, 15) ∈ Z26 × Z26. Let the ciphertext
+be C2. Print the ciphertext C2. (Output)
+8. Encrypt C2 using the Shift cipher where the key is K3 (0 ≤ K2 ≤ 25). Let the ciphertext be C3.
+Print the ciphertext C3. (Output)
+Now you have to think on the decryption to write the code for the decryption. If the code is correct then
+the decrypted text after doing the Playfair cipher decryption should match with ∆. You have to print
+all the middle layered decrypted texts in the code.
